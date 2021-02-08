@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 The `removeProductsFromCompareList` mutation removes products from a comparison list.
 
-You must specify the unique ID of a compare list along with the list of product IDs to be removed from the comparison list.
+You must specify the unique ID of a comparison list along with the list of product IDs to be removed from the comparison list.
 
 ## Syntax
 
@@ -118,8 +118,8 @@ The `RemoveProductsFromCompareListInput` object contains the following attribute
 
 Attribute |  Data Type | Description
 --- | --- | ---
-`products` | [ID]! | An array of product IDs to remove from the compare list
-`uid` | ID! | The unique identifier of the compare list to modify
+`products` | [ID]! | An array of product IDs to remove from the comparison list
+`uid` | ID! | The unique identifier of the comparison list to modify
 
 ## Output attributes
 

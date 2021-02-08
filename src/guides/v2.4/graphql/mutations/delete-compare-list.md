@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The `deleteCompareList` mutation deletes the specified compare list.
+The `deleteCompareList` mutation deletes the specified comparison list.
 
 ## Syntax
 
@@ -53,7 +53,7 @@ The `deleteCompareList` mutation requires the following input.
 
 Attribute |  Data Type | Description
 --- | --- | ---
-`uid` | ID! | The unique ID of the compare list to delete
+`uid` | ID! | The unique ID of the comparison list to delete
 
 ## Output attributes
 
@@ -61,7 +61,7 @@ The `DeleteCompareListOutput` object returns a Boolean value that indicates whet
 
 Attribute |  Data Type | Description
 --- | --- | ---
-`result` | Boolean! | A value of `true` indicates the compare list has been deleted successfully. Otherwise, the value is `false`
+`result` | Boolean! | A value of `true` indicates the comparison list has been deleted successfully. Otherwise, the value is `false`
 
 ## Related topics
 
