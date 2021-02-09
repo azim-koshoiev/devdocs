@@ -131,7 +131,7 @@ To register your theme in the system, add a `registration.php` file in your them
  * See COPYING.txt for license details.
  */
 
-use \Magento\Framework\Component\ComponentRegistrar;
+use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/<Vendor>/<theme>', __DIR__);
 ```
